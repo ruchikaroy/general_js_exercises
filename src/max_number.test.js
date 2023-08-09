@@ -5,7 +5,4 @@ test('test should return the max of two numbers', () => {
     const result = findMaxNumber(5, 16);
 
     expect(result).toBe(16);
-
-
-
 })
