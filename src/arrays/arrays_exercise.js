@@ -26,3 +26,33 @@ export function countGreaterThan(array, number) {
     const filteredArray = array.filter((num) => num > number);
     return filteredArray.length;
 }
+
+export function countLessThan(array, number) {
+    const filteredArray = array.filter((num) => num < number);
+    return filteredArray.length;
+}
+
+export function countOdds(array) {
+    const filteredArray = array.filter((num) => num % 2 !== 0);
+
+    return filteredArray.length;
+}
+
+export function countValue(array, number) {
+    const filteredArray = array.filter((num) => num === number);
+
+    return filteredArray.length;
+
+}
+
+export function firstIndexOf(array, chosenElement) {
+    const result = array.indexOf(chosenElement);
+
+    return result;
+
+}
+
+export function includes(array, number) {
+    const findNumber = array.includes(number);
+    return findNumber;
+}
